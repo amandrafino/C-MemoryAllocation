@@ -5,9 +5,8 @@
 void getName(char** name) {
     size_t size = 0;
 
-    printf("Please enter your first and last name: ");
+    printf("Enter your first and lanst name: ");
     getline(name, &size, stdin);
-
 }
 
 int main(void) {
@@ -18,5 +17,4 @@ int main(void) {
 
     return 0;
 }
-
 
